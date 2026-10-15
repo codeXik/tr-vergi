@@ -1,0 +1,12 @@
+{
+  "name": "tr-vergi",
+  "version": "0.1.0",
+  "description": "Turkish tax calculators: income tax brackets, VAT withholding (tevkifat) and Istanbul Chamber of Commerce (ITO) fees. Cent-precise, sourced, tested.",
+  "license": "MIT",
+  "author": "Skynon Labs <hello@skynonlabs.com>",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": { "test": "tsx --test src/*.test.ts" },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "tsx": "^4.19.0" }
+}
