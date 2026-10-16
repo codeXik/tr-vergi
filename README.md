@@ -1,5 +1,9 @@
 # tr-vergi
 
+[![test](https://github.com/codeXik/tr-vergi/actions/workflows/test.yml/badge.svg)](https://github.com/codeXik/tr-vergi/actions/workflows/test.yml)
+
+> **Tax year 2026 only.** Income tax brackets and VAT withholding rates were verified against GİB on 6 Sep 2026, ITO fees against the 2026 İTO tariff on 16 Sep 2026. Other years are rejected with an error; rates are updated each January.
+
 Turkish tax calculators in TypeScript, extracted from [Muhasebeci.ai](https://muhasebeci.ai/araclar).
 
 - **Income tax** (gelir vergisi): 2026 brackets for wage and non-wage income, with a per-bracket breakdown.
@@ -19,6 +23,6 @@ npm install
 npm test
 ```
 
-Results are estimates, not tax advice. Rates are verified for the year in `src/public-tax-config.ts`.
+Results are estimates, not tax advice.
 
 MIT © [Skynon Labs](https://skynonlabs.com) · hello@skynonlabs.com · [Türkçe](README.tr.md)
